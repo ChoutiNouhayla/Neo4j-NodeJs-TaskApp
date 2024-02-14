@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.task-container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ced4da;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.task-item button {
+  margin-left: 10px;
+}
+
+.logout-link {
+  display: block;
+  margin-top: 20px;
+}
